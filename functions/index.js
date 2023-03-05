@@ -4,7 +4,6 @@ const express = require('express');
 const cors = require('cors');
 const generateRandomPrompt = require('./generator');
 
-admin.initializeApp();
 
 const app = express();
 
@@ -19,4 +18,7 @@ app.get('/main', (req, res) => {
   res.send(promptString);
 });
 
+admin.initializeApp();
 exports.api = functions.https.onRequest(app);
+
+// https://gamegenerator-cc1ec.web.app/main

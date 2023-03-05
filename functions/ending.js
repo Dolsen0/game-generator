@@ -1,0 +1,30 @@
+const endingList = [
+    "Will you make it for me?",
+    "would you be willing to make it for me?",
+    "do you want to make it?",
+    "do you think it sounds like a good idea?",
+    "do you think it's a good idea?",
+    "can you make it?",
+    "would you want to play it?",
+    "I would pay top dollar to play it.",
+    "it would be a shame if you didn't make it.",
+    "it could be a great game.",
+    "it could be the greatest game ever made.",
+    "I'm really excited about this idea, can you bring it to life?",
+    "I think this could be your best work yet, can you make it happen?",
+    "I can already imagine how amazing this game will be, will you create it?",
+    "This game would be perfect for my upcoming event, could you develop it in time?",
+    "I'm a big fan of your work, can you please consider making this game?",
+    "I've been searching for a game like this, can you make it a reality?",
+    "I know you have the skills to create something truly special, can you take on this project?",
+    "I've been dreaming of playing a game like this, can you make it happen?",
+    "I have a feeling this game would be a huge success, will you develop it?",
+    "I'm willing to invest in this game, can you make it a reality?",
+    "I think this game has the potential to be a classic, can you bring it to life?",
+    "This game would be perfect for my target audience, could you make it happen?",
+    "I believe this game would be a game-changer, can you develop it?",
+    "I know you're busy, but can you please consider creating this game?",
+    "I can't wait to see what you come up with, will you make this game?"
+];
+
+    module.exports = endingList

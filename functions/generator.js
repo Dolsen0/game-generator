@@ -3,6 +3,7 @@ const styles = require('./styles');
 const settings = require('./settings');
 const themes = require('./themes');
 const maxims = require('./maxims');
+const endingList = require('./ending');
 
 function generateRandomPrompt(requestList, styleList, settingsList, themeList, maximList) {
   const request = requestList[Math.floor(Math.random() * requestList.length)];
@@ -12,8 +13,10 @@ function generateRandomPrompt(requestList, styleList, settingsList, themeList, m
   const theme2 = themeList[Math.floor(Math.random() * themeList.length)];
   const theme3 = themeList[Math.floor(Math.random() * themeList.length)];
   const maxim = maximList[Math.floor(Math.random() * maximList.length)];
+  const ending = endingList[Math.floor(Math.random() * maximList.length)];
+  
 
-  const promptString = `${request} ${style} set in ${setting}... Throughout the game you'll experience ${theme1}, ${theme2}, and ${theme3}. By the end, you'll learn ${maxim}....Will you make it for me?`;
+  const promptString = `${request} ${style} set in ${setting}... Throughout the game you'll experience: ${theme1}, ${theme2}, and ${theme3}. By the end, you'll learn: ''${maxim}''....${ending}.`;
 
   return promptString;
 }
