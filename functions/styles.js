@@ -12,14 +12,22 @@ const styleList = [
     'a Third-person shooter game',
     'a Survival game',
     'a Stealth game',
-    'a Open-world game',
+    'an Open-world game',
     'a Tactical shooter game',
     'an Adventure game',
     'a Visual novel game',
     'a Music game',
     'a Massively multiplayer online (MMO) game',
     'a Educational game',
-    'a metroidvania game'
+    'a Metroidvania game',
+    'a Battle royale game',
+    'a Real-time strategy (RTS) game',
+    'a Turn-based strategy game',
+    'a Hack and slash game',
+    'a Sports simulation game',
+    'a Life simulation game',
+    'a Text-based game',
+    'a Point-and-click game'
   ];
 
 

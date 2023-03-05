@@ -28,7 +28,19 @@ const maximList = [
     "What doesn't kill you makes you stronger.",
     "Adversity introduces a man to himself.",
     "The difference between stumbling blocks and stepping stones is how you use them.",
-    "Resilience is not what happens to you, but how you react to it."]
+    "Resilience is not what happens to you, but how you react to it.",
+    "If you want something you've never had, you must be willing to do something you've never done.",
+    "Life is too short to waste time on things that don't matter.",
+    "In the middle of every difficulty lies opportunity.",
+    "A person who never made a mistake never tried anything new.",
+    "We can't help everyone, but everyone can help someone.",
+    "The best way to predict the future is to create it.",
+    "The only person you are destined to become is the person you decide to be.",
+    "If you don't stand for something, you will fall for anything.",
+    "Success is stumbling from failure to failure with no loss of enthusiasm.",
+    "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+    "Many of life's failures are people who did not realize how close they were to success when they gave up.",
+]
 
 
     module.exports = maximList
