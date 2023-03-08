@@ -1,11 +1,11 @@
-const requests = require('./requests');
-const styles = require('./styles');
-const settings = require('./settings');
-const transitionThemes = require('./transitionTheme');
-const themes = require('./themes');
-const maxims = require('./maxims');
-const transitionsEnd = require('./transitionEnd');
-const endingList = require('./ending');
+const requests = require('./requests.json');
+const styles = require('./styles.json');
+const settings = require('./settings.json');
+const transitionThemes = require('./transitionTheme.json');
+const themes = require('./themes.json');
+const maxims = require('./maxims.json');
+const transitionsEnd = require('./transitionEnd.json');
+const endingList = require('./ending.json');
 
 function generateRandomPrompt(requestList, styleList, settingsList, themeList, maximList) {
   const request = requestList[Math.floor(Math.random() * requestList.length)];

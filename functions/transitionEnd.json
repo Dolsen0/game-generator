@@ -1,4 +1,4 @@
-const transitionEnd = [
+[
     "By the end, you'll learn",
     "By the end, you'll discover the importance of the phrase",
     "Before long, you'll know the importance of the phrase",
@@ -12,6 +12,4 @@ const transitionEnd = [
     "The journey will leave you with a newfound understanding of the phrase",
     "You'll come to realize a new meaning of"
     
-];
-
-  module.exports = transitionEnd
+]

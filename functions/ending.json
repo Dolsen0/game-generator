@@ -1,4 +1,4 @@
-const endingList = [
+[
     "Will you make it for me?",
     "would you be willing to make it for me?",
     "do you want to make it?",
@@ -25,6 +25,4 @@ const endingList = [
     "I believe this game would be a game-changer, can you develop it?",
     "I know you're busy, but can you please consider creating this game?",
     "I can't wait to see what you come up with, will you make this game?"
-];
-
-    module.exports = endingList
+]

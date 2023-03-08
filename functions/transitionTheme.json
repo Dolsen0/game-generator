@@ -1,4 +1,4 @@
-const transitionThemeList = [
+[
     "Throughout the game you'll experience",
     "before long you'll experience",
     "you'll experience",
@@ -9,6 +9,4 @@ const transitionThemeList = [
     "Explore the depths of",
     "Get lost in a world of",
     "dive into"
-];
-
-  module.exports = transitionThemeList
+]
